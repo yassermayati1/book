@@ -3022,6 +3022,7 @@ tbody td:active {
   border: none;
   border-top: 1px solid rgba(34, 36, 38, 0.1);
   box-shadow: none;
+  text-align: right;
 }
 .card {
   font-size: 1em;
