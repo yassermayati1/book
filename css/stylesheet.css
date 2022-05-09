@@ -3005,71 +3005,6 @@ tbody td:active {
 }
 /*******************************/
 
-.title {
-  margin: 26px 0;
-  text-transform: uppercase;
-  background-color: #dbdbdb;
-  padding: 17px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
-
-.card-block {
-  font-size: 1em;
-  position: relative;
-  margin: 0;
-  padding: 1em;
-  border: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.1);
-  box-shadow: none;
-  text-align: right;
-}
-.card {
-  font-size: 1em;
-  overflow: hidden;
-  padding: 5;
-  border: none;
-  border-radius: 0.28571429rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  margin-top: 20px;
-}
-
-.carousel-indicators li {
-  border-radius: 12px;
-  width: 12px;
-  height: 12px;
-  background-color: #404040;
-}
-.carousel-indicators li {
-  border-radius: 12px;
-  width: 12px;
-  height: 12px;
-  background-color: #404040;
-}
-.carousel-indicators .active {
-  background-color: white;
-  max-width: 12px;
-  margin: 0 3px;
-  height: 12px;
-}
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-.btn {
-  margin-top: auto;
-}
-.d-block w-100 {
-}
-.px-3 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
 /******************************/
 body {
   direction: rtl;
@@ -3218,7 +3153,7 @@ select option {
   width: 100%;
   display: block;
   overflow: hidden;
-  height: 100vh;
+  height: 77vh;
 }
 .shadow-title {
   position: fixed;
@@ -3426,4 +3361,86 @@ select option {
   opacity: 0.8;
   border-radius: 50%;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+}
+.home {
+  padding: 15px 0;
+  background-color: #eee;
+}
+.title {
+  padding: 30px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+  background-color: #fff;
+  margin: 20px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.cards {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #9d9d9d;
+  border-radius: 10px 3px;
+  margin: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+}
+
+.cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: -5px 14px;
+}
+
+.card-image {
+  margin: 4px;
+  height: 250px;
+  border: 1px solid #9d9d9d;
+  max-width: 100%;
+  border-radius: 10px 3px 3px 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.card-des {
+  padding: 15px;
+  text-align: right;
+}
+footer {
+  padding: 20px;
+  background-color: #999;
+  height: 70px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-des button {
+  width: 100%;
+}
+
+.cardsy {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #9d9d9d;
+  border-radius: 10px 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+}
+.cardsy .card-image {
+  height: 250px;
+
+  border: 1px solid #9d9d9d;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.cardsy h3 {
+  background-color: #eeeeee;
+  padding: 15px;
+  border-radius: 10px 0px;
 }
